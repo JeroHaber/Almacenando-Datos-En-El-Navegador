@@ -53,6 +53,10 @@ form {
   padding: 0px;
 }
 
+input {
+  margin: 0 10px;
+}
+
 .btnCreate {
   padding: 10px 15px;
   background-image: linear-gradient(
@@ -129,4 +133,24 @@ form {
 .date {
   width: 100%;
   padding: 15px;
+}
+
+@media (max-width: 768px) {
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inputForm {
+    width: 100%;
+  }
+
+  input {
+    margin: 10px;
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
 }
